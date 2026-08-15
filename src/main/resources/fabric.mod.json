@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "mkcorp",
+  "version": "${version}",
+  "name": "MKCorp",
+  "description": "A Fabric utility client. Built for single-player, private servers, and anarchy servers where utility clients are allowed.",
+  "environment": "client",
+  "license": "MIT",
+  "entrypoints": {
+    "client": [
+      "com.mkcorp.MKCorpClient"
+    ]
+  },
+  "mixins": [
+    "mkcorp.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

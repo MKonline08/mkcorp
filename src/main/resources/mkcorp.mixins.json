@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.mkcorp.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "AbstractBlockStateMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
